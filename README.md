@@ -17,6 +17,12 @@ Please edit `SETTINGS.PY`
 
 ## Usage
 
+### download script
 ``` bash
   $ make download
+```
+
+### simple views server
+``` bash
+  $ make server
 ```

@@ -4,4 +4,7 @@ download:
 install:
 	pip install -r requirements.txt
 
-.PHONY: download install
+server:
+	python -m server.simple_server
+
+.PHONY: download install server
