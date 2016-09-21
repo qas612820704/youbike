@@ -26,3 +26,4 @@ Please edit `SETTINGS.PY`
 ``` bash
   $ make server
 ```
+![simple_server](./img/simple_server.png)
