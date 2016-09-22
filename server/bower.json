@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "homepage": "https://github.com/qas612820704/youbike",
+  "authors": [
+    "Lego Chiang <qas612820704@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-jsonview": "^1.2.3"
+  }
+}

@@ -91,3 +91,7 @@ ENV/
 
 # downnload file
 UB_DATA/
+
+# Bower
+server/bower_components/
+
