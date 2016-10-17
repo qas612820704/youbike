@@ -28,7 +28,7 @@ Please edit `SETTINGS.PY`
 ```
 ![simple_server](./img/simple_server.png)
 
-**byDocker**
+## Or Installation By Docker
 
 ```bash
 $ sudo docker build . -t ub
