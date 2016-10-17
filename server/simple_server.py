@@ -17,7 +17,7 @@ def index():
     for f in os.listdir(SAVE_FILE_DIR):
         if f.endswith(".json"):
             json_list.append(f.replace('.json', ''))
-    json_list.sort()
+    json_list.sort(reverse=True)
 
     return template('index', json_list = json_list)
 
@@ -34,4 +34,4 @@ def static(path):
 @app.route('/<json_file>')
 def json_file(json_file):
     return static_file(json_file, root=SAVE_FILE_DIR)
-run(app, host='140.113.208.132', port="8080")
+run(app, host='140.113.208.132', port="8888")

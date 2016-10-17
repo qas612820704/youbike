@@ -9,7 +9,11 @@
 <body>
   <ul>
     % for json in json_list:
-      <li><a href="/{{json}}/">{{json}}</a></li>
+      <li>
+        <a href="/{{json}}/">{{json}}</a>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <a href="/{{json}}.json"><i>(view source json)</i></a>
+      </li>
     % end
   </ul>
 </body>
