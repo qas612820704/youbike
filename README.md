@@ -27,3 +27,10 @@ Please edit `SETTINGS.PY`
   $ make server
 ```
 ![simple_server](./img/simple_server.png)
+
+**byDocker**
+
+```bash
+$ sudo docker build . -t ub
+$ sudo docker run -d -p 8888:8888 -v /etc/localtime:/etc/localtime:ro -v /home/{User}/ub_data:/opt/app/data ub
+```

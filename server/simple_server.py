@@ -1,6 +1,6 @@
 import os
 import json
-from SETTINGS import BASE_DIR, SAVE_FILE_DIR
+from SETTINGS import BASE_DIR, SAVE_FILE_DIR, HOST, PORT
 from bottle import Bottle, run, template, static_file
 from bottle import TEMPLATE_PATH
 
@@ -34,4 +34,4 @@ def static(path):
 @app.route('/<json_file>')
 def json_file(json_file):
     return static_file(json_file, root=SAVE_FILE_DIR)
-run(app, host='140.113.208.132', port="8888")
+run(app, host=HOST, port=PORT, quiet=True)
